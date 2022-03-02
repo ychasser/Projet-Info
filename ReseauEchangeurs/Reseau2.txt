@@ -1,0 +1,19 @@
+R2					Identification du réseau
+4					Nombre d'échangeurs
+4					Nombre de courants
+A Chaud 30	180 140  no Type FCp(kW/°C) TIN(°C) TOUT(°C) Courant A(C1)
+B Chaud 75	150 70  no Type FCp(kW/°C) TIN(°C) TOUT(°C) Courant B(C2)
+C Froid 35	10 100  no Type FCp(kW/°C) TIN(°C) TOUT(°C) Courant C(F1)
+D Froid 90	80 125  no Type FCp(kW/°C) TIN(°C) TOUT(°C) Courant D(F2)
+0 1 0 2				Topologie Echangeur E1
+0 2 2 0				Topologie Echangeur E2
+1 0 0 1				Topologie Echangeur E3
+2 0 1 0				Topologie Echangeur E4
+0.8					Coefficient d'échange (kW/°C/m2) Echangeur E1
+0.0					Aire d'échange (m2) Echangeur E1
+0.8					Coefficient d'échange (kW/°C/m2) Echangeur E2
+0.0					Aire d'échange (m2) Echangeur E2
+0.8					Coefficient d'échange (kW/°C/m2) Echangeur E3
+0.0					Aire d'échange (m2) Echangeur E3
+0.8					Coefficient d'échange (kW/°C/m2) Echangeur E4
+0.0					Aire d'échange (m2) Echangeur E4

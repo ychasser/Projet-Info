@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Simulation">
+      <UniqueIdentifier>{b2e7c5a8-5af4-4d55-be7f-5cb357961516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Données">
+      <UniqueIdentifier>{5dded89f-9a56-4c41-9263-d17ae9baf904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{3927a56e-549b-4a0b-b0fc-d491878c54bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Flux">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Echangeur">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Reseau">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UnEchangeur.cpp">
+      <Filter>Echangeur</Filter>
+    </ClCompile>
+    <ClCompile Include="UnFlux.cpp">
+      <Filter>Flux</Filter>
+    </ClCompile>
+    <ClCompile Include="UnReseau.cpp">
+      <Filter>Reseau</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Numerique.cpp">
+      <Filter>Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UnFlux.h">
+      <Filter>Flux</Filter>
+    </ClInclude>
+    <ClInclude Include="UnReseau.h">
+      <Filter>Reseau</Filter>
+    </ClInclude>
+    <ClInclude Include="UnEchangeur.h">
+      <Filter>Echangeur</Filter>
+    </ClInclude>
+    <ClInclude Include="Numerique.h">
+      <Filter>Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Reseau1.txt">
+      <Filter>Données</Filter>
+    </Text>
+    <Text Include="Reseau2.txt">
+      <Filter>Données</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
